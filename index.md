@@ -100,7 +100,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 {% comment %}
 AUDIENCE
 
-"This workshop is open to members of AgNIC and USAIN and employees of the National Agricultural Library."
+
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
@@ -258,11 +258,13 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
+  {% endcomment %}
+  
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to representatives of AgNIC Partner Institutions, members of USAIN, employees of the National Agricultural Library
 </p>
-{% endcomment %}
+
 
 <hr/>
 
@@ -353,9 +355,9 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
- <h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule</h2>
 
-{% _includes/custom-schedule.html %}
+{% include custom-schedule.html %}
 
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
 {% endif %}
