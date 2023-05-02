@@ -355,7 +355,7 @@ of code below the Schedule `<h2>` header below with
 
  <h2 id="schedule">Schedule</h2>
 
-{% _includes custom-schedule.html %}
+{% _includes/custom-schedule.html %}
 
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
 {% endif %}
