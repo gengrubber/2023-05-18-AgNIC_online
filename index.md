@@ -353,9 +353,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-{% comment %}
-  add back the h2 line here to revert to 2 day schedule
-{% endcomment %}
+ <h2 id="schedule">Schedule</h2>
 
 {% include custom-schedule.html %}
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
