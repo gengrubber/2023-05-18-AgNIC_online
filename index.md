@@ -100,6 +100,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 {% comment %}
 AUDIENCE
 
+"This workshop is open to members of AgNIC and USAIN and employees of the National Agricultural Library."
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
@@ -352,7 +353,9 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+{% comment %}
+  add back the h2 line here to revert to 2 day schedule
+{% endcomment %}
 
 {% include custom-schedule.html %}
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
